@@ -1,0 +1,23 @@
+type Post @model {
+  id: ID!
+  image: String!
+  gallery: [String]
+  type: String!
+  title: String!
+  description: String!
+  tags: [String]
+  notice: [String]
+
+  hours: Int!
+  activity_n: Int!
+  maxGuests: Int!
+  activity: [String!]
+
+  oldPrice: Float
+  newPrice: Float!
+
+  latitude: Float!
+  longitude: Float!
+
+  rating: Float
+}
